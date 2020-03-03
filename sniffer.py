@@ -110,8 +110,6 @@ if __name__ == "__main__":
         # evaluating flag and remaining packet data
         if ip_bool:
             data_received, tcp_udp = iph_analyzer(data_received)
-        else:
-            pass
 
         # checking TCP/UDP
         if tcp_udp == "TCP":
