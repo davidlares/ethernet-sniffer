@@ -8,7 +8,7 @@ This sniffer is a RAW socket configuration and uses the `htons` functions that h
 
 Cover and explain every part of each involved network stack is way too large. These concepts are the main foundations of how we consume the internet and how each network bit is transferred. You can check and research every layer diagram for more information.
 
-# Usage
+## Usage
 
 This script uses Python built-in modules, but if you want, you can use a `virtualenv` setup. After that, you will need to run the `sniffer.py` and that's it.
 
